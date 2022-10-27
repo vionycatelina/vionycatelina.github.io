@@ -9,13 +9,13 @@
     background: #151013;
     height: 80px;
     width: 100%;
-    display: flex;
+    display: absolute;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 900;
 }
 
 .navbar__container{
@@ -24,8 +24,7 @@
     height: 70px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0 10px;
 }
 
@@ -137,10 +136,10 @@ span{
     display: inline-block;
     width: 60px;
     height: 34px;
-    top: 3px;
-    left: 100%;
-    padding: 0 10px;
-    z-index: 999;
+    top: 3.5%;
+    right: 3%;
+    z-index: 900;
+    padding: 0 1rem;
     background-color: rgb(146, 146, 146);
     border-radius: 34px;
   }
@@ -201,14 +200,17 @@ span{
 
 .content{
     background: #151013;
+    margin:0;
     height: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
+    position: sticky;
+    display: absolute;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 50;
+    max-width: 1300px;
+    overflow-x: hidden;
 }
 
     .content__intro{
@@ -262,7 +264,7 @@ span{
         height: 80px;
         z-index: 1;
         width: 100%;
-        max-width: 1300px;
+        max-width: 600px;
         padding: 0;
     }
 
@@ -354,9 +356,9 @@ span{
     
     .switch{
         position: fixed;
-        left: 76vw;
-        top: 3.9%;
-        height: 22px;
+        left: 80%;
+        top: 4%;
+        height: 24px;
         width: 42.5px;
     }
 
@@ -391,6 +393,9 @@ span{
         right:10%;
     }
 
+    .content{
+        max-width: 100%;
+    }
     
     .content__intro {
       top: 47vw;
