@@ -213,7 +213,6 @@ span{
     top: 0;
     z-index: 50;
     max-width: 1300px;
-    overflow-x: hidden;
 }
 
     .content__intro{
