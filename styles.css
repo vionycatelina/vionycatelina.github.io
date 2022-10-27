@@ -16,6 +16,7 @@
     position: fixed;
     top: 0;
     z-index: 900;
+    overflow-x: hidden
 }
 
 .navbar__container{
@@ -132,7 +133,7 @@ span{
 
 
 .switch {
-    position: absolute;
+    position: fixed;
     display: inline-block;
     width: 60px;
     height: 34px;
@@ -216,8 +217,8 @@ span{
     .content__intro{
         position: absolute;
         top:0vw;
-        z-index:51;
-        width: 100vw;
+        z-index:100;
+        width: 100%;
         font-size: 1.5rem;
     }
 
