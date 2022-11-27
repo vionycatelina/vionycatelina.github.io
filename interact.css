@@ -208,61 +208,23 @@ body{
 .content{
     background: #151013;
     margin:0;
-    height: 1000px;
+    height: 120vh;
     width: 100%;
     display: absolute;
     justify-content: center;
     align-items: center;
     position: sticky;
     font-size: 1.2rem;
-    top: 0;
     z-index: 50;
 }
 
-    .content__intro{
-        position: absolute;
-        top:0vw;
-        z-index:100;
-        width: 100%;
-        font-size: 1.5rem;
-    }
-
-        .content__intro h3{
-            color: white;
-            position: absolute;
-            font-size: 3.8vw;
-            font-weight:500;
-            top: 16vw;
-            right: 66%;
-        }
-
-        .content__intro h1{
-            background-color: #e91363;
-            color: #fff;
-            position: absolute;
-            font-size: 5.5vw;
-            top: 21vw;
-            right: 49%;
-        }
-
-        .content__intro h4 {
-            color: #fff;
-            position: absolute;
-            font-weight: 350;
-            font-size: 2.5vw;
-            top: 28.5vw;
-            width: 40vw;
-            right: 44%;
-        }
-
-    .content img {
-        position: absolute;
-        top: 14vw;
-        right: 12%;
-        text-align: center;
-        height: auto;
-        max-width: 30%;
-    }
+.elfsight-app-ddb1b359-e39b-4398-936f-1f2695c54c5d{
+    width: 50%;
+    top:110px;
+    margin: auto;   
+    z-index: 99;
+    padding-bottom: 20px;
+}
 
 @media  screen and (max-width: 600px){
     .navbar{
