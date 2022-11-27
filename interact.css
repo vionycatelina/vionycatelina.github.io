@@ -208,6 +208,7 @@ body{
 .content{
     background: #151013;
     margin:0;
+    top:10vh;
     height: 120vh;
     width: 100%;
     display: absolute;
