@@ -22,7 +22,6 @@
         <div class="navbar__container">
              <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
                     <a href="/aboutme.html" class="navbar__links">About me</a>
@@ -33,13 +32,19 @@
              </ul>
         </div>
     </nav>
-        <label class="switch">
-            <input type="checkbox" checked>
-            <span class="slider round"></span>
-        </label>
         <div class="content">
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div class="elfsight-app-ddb1b359-e39b-4398-936f-1f2695c54c5d"></div>
+            <div class="bg_form"></div>
+            <form action="connect.php" method="post">
+                <div class="form_group">
+                    <label for="Name">Name or Initial</label>
+                    <input type="text" class="input_name" id="Name" name="name"/>
+                </div>
+                <div class="form_group">
+                    <label for="Message">Message</label>
+                    <textarea class="input_message" id="Message" name="message"></textarea>
+                </div>
+                <input type="submit" class="button_submit">
+            </form>
         </div>
     <script src = "app.js"></script>
 </body>
