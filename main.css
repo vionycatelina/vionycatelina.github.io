@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Kristi';
+    src: url('fonts/kristi.woff2') format('woff2'),
+         url('fonts/kristi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+:root {
+    --font-family-kristi: 'Kristi', sans-serif;
+    --font-family-poppins: 'Poppins', sans-serif;
+}
+
+.logo {scale: 30%; position: fixed; top: -20px; left: -20px;}
+
+body {font-family: var(--font-family-poppins); overflow: hidden;}
+
+.dark_button {position:fixed; background-color: white; color: black; right: 10px;}
+
+.dark-mode {background-color: #272727; color: white;}
+
+.ellipse {position:fixed; scale: 60%; top: 0; left: 70px;}
+
+p {margin: 10px; line-height: 1.3;}
+
+.intro {position: fixed; left: 800px; top: 150px; font-size: 30px;}
+
+.intro_text {margin-top: 70px; width: 500px;}
+
+.download_message {display: inline-flex; font-size: 70%;}
+
+.note {position: absolute;transform:translateY(40px); font-size: 70%; background-color: #eaeaea;padding: 10px 5px; border-radius: 7px;}
+
+button { font-family: var(--font-family-poppins);
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 10px; 
+  font-size: 100%; 
+  border: 0; 
+  background-color: pink;
+  border-radius: 30px;
+  padding: 5px 20px;
+  height: fit-content;
+}
+
+a {color: gray; text-decoration: none;}
+
+button:hover {
+    background-color: #dbe2f0; /* White background on hover */
+}
+
+.download_message:hover{
+    .note{
+        visibility: visible; transition-duration: 5s;
+    }
+}
+
+.name {font-size: 200%;}
+

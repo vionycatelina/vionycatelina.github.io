@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catelina's</title>
+    <link rel="stylesheet" href="message.css">
+</head>
+<body>  
+    <div class = "top">
+    <img class="logo" src="logo.png">
+    <button onclick="myFunction()" class="dark_button">Change Mode</button>
+    </div>
+    <div class = "contact_container">
+        <form action="https://api.web3forms.com/submit" method="POST" class = "contact-left">
+            <div class = "contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="29b167d5-8480-4eda-9507-ba745c3d44b1">
+            <input type = "text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type = "email" name="email" placeholder="Your E-mail" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-right"><img src="ellipse.png" class="ellipse" alt=""></div>
+    </div>
+
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>

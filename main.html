@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catelina's</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>  
+        <img class="logo" src="logo.png">
+        <button onclick="myFunction()" class="dark_button">Change Mode</button>
+        <div class="intro">
+        <img src="ellipse.png" class="ellipse">
+        <div class = "intro_text">
+        <p>Hi, I am</p>
+        <p class="name"><b>Viony Catelina</b></p>
+        <p>Data Analytics Enthusiast with a heart for design</p>
+        <article class="download_message">
+            <a href = "message.html"><button class="message">leave a message</button></a> <p class="link_cv"><a href="">Download CV</a></p> 
+        </article>
+        </div>
+        </div>
+
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+        </script>
+</body>
+</html>
