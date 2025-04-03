@@ -51,8 +51,8 @@ button:hover {
 
 .download_message:hover{
     .note{
-        visibility: visible; transition-duration: 5s;
-    }
+        visibility: visible;
+}
 }
 
 .name {font-size: 200%;}
