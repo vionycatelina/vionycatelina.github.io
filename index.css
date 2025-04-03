@@ -29,7 +29,7 @@ p {margin: 10px; line-height: 1.3;}
 
 .download_message {display: inline-flex; font-size: 70%;}
 
-.note {position: absolute;transform:translateY(40px); font-size: 70%; background-color: #eaeaea;padding: 10px 5px; border-radius: 7px;}
+.note {position: absolute;transform:translateY(40px); font-size: 70%; background-color: #eaeaea; color:black ;padding: 10px 5px; border-radius: 7px;}
 
 button { font-family: var(--font-family-poppins);
   margin-top: 5px;
